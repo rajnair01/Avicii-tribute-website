@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  background-color: hwb(266 68% 24%);
+  min-height : 100vh;
+  border: 10px solid hsl(263, 24%, 19%);;
+}
+.content{
+  max-width: 900px;
+  margin: 0 auto;
+}
+.photo {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.top-section{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.top-section h1{
+  font-size: 50px;
+  font-weight: bold;
+  font-family: arial;
+}
+
+.top-section h2{
+  text-align: end;
+  font-size: 30px;
+  font-family: arial;
+}
+.about-section{
+  margin-top: 50px;
+  font-size: 70px;
+  font-family: arial;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.about {
+  line-height: 20px;
+  letter-spacing: 1.2px;
+  font-family: arial;
+  padding: 10px;
+  text-align: justify;
+}
+.album-section{
+  display: flex;
+  flex-direction: column;
+}
+.album-heading{
+  padding: 20px 0px;
+  font-family: arial;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.album-link{
+  width: 100px;
+  padding: 10px;
+  margin-bottom: 5px;
+  font-family: arial;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.25s;
+}
+
+.album-link:hover{
+  background-color: white;
+  color: black;
+}
+
+.true{
+  width: 500px;
+  height: 500px;
+  margin-left: 200px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+footer {
+  margin: 20px;
+}
+
+.read-more-link {
+  text-align: end;
+}
+
+.logo{
+  width: 200px;
+  margin-left: 350px;
+}
